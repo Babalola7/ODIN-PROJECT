@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+@font-face{
+    font-family: Norse-Bold;
+    src: url('Norse-Bold.otf');
+}
+
+.image{
+    background: url('tyler-lastovich-AVzByhROPbs-unsplash (1).jpg');
+    background-size: 600px;
+    width: 30%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.image-logo{
+    width: 80px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.image-background{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.image-background h1{
+    text-align: center;
+    color: #fff;
+    font-family: Norse-Bold;
+    margin-top: 25px;
+}
+
+/* .right-content{
+    padding-left: 2rem;
+} */
+
+.top-line{
+    margin-top: 8rem;
+    width: 600px;
+    padding-left: 2rem;
+    font-family: sans-serif;
+}
+.h3-2{
+    font-family: sans-serif;
+    margin-top: 40px;
+    /* padding-left: 2rem; */
+}
+
+.form-line{
+    background-color: #fff;
+}
+
+.form-heading{
+    padding-left: 2rem;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.form-actions{
+    background-color: #fff;
+    width: 900px;
+    box-shadow: 0px 5px 3px -3px rgb(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding-left: 2rem;
+}
+
+input[type='text'], input[type='password'], input[type='email'], input[type='tel'] {
+    width: 200px;
+    height: 27px;
+    border-radius: 5px;
+    border: 0.5 solid rgb(0, 0, 0, 0.5);
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border: none;
+    outline: 1px solid blue;
+
+}
+
+label{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#btn{
+    padding: 12px 25px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.account{
+    font-size: 15px;
+    margin-left: 2rem;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+}
